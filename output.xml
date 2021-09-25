@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.4 on darwin)" generated="20210919 18:30:22.441" rpa="false" schemaversion="2">
+<suite id="s1" name="Boxes" source="/Users/Andrew/PycharmProjects/TestUI/TestCase/Boxes.robot">
+<test id="s1-t1" name="TC_001 Open Browser and">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL_AMAZON}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210919 18:30:22.689" level="INFO">Opening browser 'Chrome' to base url 'https://www.amazon.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210919 18:30:22.693" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20210919 18:30:22.692" endtime="20210919 18:30:22.693"/>
+</kw>
+<msg timestamp="20210919 18:30:22.699" level="FAIL">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</msg>
+<status status="FAIL" starttime="20210919 18:30:22.688" endtime="20210919 18:30:22.699"/>
+</kw>
+<status status="FAIL" starttime="20210919 18:30:22.688" endtime="20210919 18:30:22.699">WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+</status>
+</test>
+<doc>Login account using API
+Run testcase command, store report on Results folder with timestamp: "robot --timestampoutputs -d Results TestCase/"</doc>
+<status status="FAIL" starttime="20210919 18:30:22.443" endtime="20210919 18:30:22.700"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Boxes">Boxes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
