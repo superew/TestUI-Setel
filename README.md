@@ -17,4 +17,4 @@ To run the Test Case, using command line:
 ```
 robot -d Results TestCase
 ```
-# TestUI-Setel
+To view Report file, navigate to folder `TestUI/Results`
