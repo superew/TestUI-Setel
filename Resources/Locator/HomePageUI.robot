@@ -4,6 +4,7 @@ ${AMAZON_SEARCH_BTN}                //input[@value='Go']
 ${AMAZON_SEARCH_RESULTS_BLOCK}      //div[@data-component-type="s-search-result"]
 ${AMAZON_SEARCH_RESULTS_LABEL}      //h2/a/span
 ${AMAZON_SEARCH_RESULTS_PRICE}      //div[@data-component-type='s-search-result']//span[@class='a-price']/span[@class='a-offscreen']
+${AMAZON_PRICE}                     \
 
 ${EBAY_SEARCH_TXT}                  //input[@id='gh-ac']
 ${EBAY_SEARCH_BTN}                  //input[@value='Search']
